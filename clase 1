@@ -8,6 +8,8 @@ git --version
 clear # Con esto se limpia toda la consola
 pwd
 ls
+ls -l
+ls -lha
 cat "nombre de archivo"
 cd home/pepin
 
