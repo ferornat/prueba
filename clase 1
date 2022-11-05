@@ -75,7 +75,8 @@ git blame "archivo" # Te dice quién cambió qué línea
 # Archivos importantes:
 # .gitignore
 # readme.md
-touch .gitignore
+
+# Tenemos que vincular nuestro repositorio con el repo de Git Hub
 
 
 
