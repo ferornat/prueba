@@ -43,3 +43,5 @@ git commit -m "Inicializamos nuestro primer repositorio"
 # Cuando hago un cambio, y después quiero volver a la versión previa
 git restore "nombre file"
 
+# Vemos las diferencias entre el repo que clonamos o estamos laburando, y el que tenemos en el momento
+git diff
