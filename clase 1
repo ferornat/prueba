@@ -7,6 +7,7 @@ git --version
 clear # Con esto se limpia toda la consola
 pwd
 ls
+cat "nombre de archivo"
 cd home/pepin
 
 mkdir git-eit-20221105 # Si no me dice nada la tabla de comandos suele ser porque efectivamente corrió
@@ -38,4 +39,7 @@ git add index.html
 
 # Hay que poner un comentario al commit
 git commit -m "Inicializamos nuestro primer repositorio"
+
+# Cuando hago un cambio, y después quiero volver a la versión previa
+git restore "nombre file"
 
