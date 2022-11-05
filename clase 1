@@ -47,4 +47,23 @@ git restore "nombre file"
 git diff
 
 # Si quiero hacer un restore de un archivo que ya está en la etapa de stage
-git restore --stage
+git restore --stage "archivo"
+git restore "archivo"
+
+# Borrar un archivo del repositorio
+# Manera 1
+rm -f archivo.html
+git status # Vemos que aparece como "borrado"
+git add. # Llevamos a zona de staging
+git commit -m "Borramos"
+
+# Manera 2
+git rm -f archivo.html
+git status
+git add. # Llevamos a zona de staging
+git commit -m "Borramos"
+
+
+
+
+
