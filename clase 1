@@ -1,0 +1,41 @@
+# Libro de referencia: Pro Git book
+# Cheat sheet: https://ndpsoftware.com/git-cheatsheet.html#loc=index;
+
+# Algunos comandos
+git --version
+
+clear # Con esto se limpia toda la consola
+pwd
+ls
+cd home/pepin
+
+mkdir git-eit-20221105 # Si no me dice nada la tabla de comandos suele ser porque efectivamente corrió
+cd git-eit-20221105 # El tabulado te suele autocompletar bien
+
+##########################
+### Comenzamos con Git ###
+##########################
+
+# Mi workspace es la carpeta donde yo estoy laburando la versión localmente, en mi pc. En este caso es "Curso de Git"
+
+# Para comenzar con repo hay que tirar la primera vez con "git init"
+# Para querer dejar comentado a modo de auditoría, "hice tal cambio", hay que decir dos cosas:
+git config user.name "Fer Ornat"
+git config user.email "faornat@gmail.com"
+
+# Cómo esta pc la uso sólo yo, puedo poner para que que quede que soy siempre yo, de la siguiente manera
+git config --global user.name "Fer Ornat"
+git config --global user.email "faornat@gmail.com"
+
+# Creamos un archivo, para ver cómo se crea desde la consola
+touch index.html
+
+# Vemos el status de Git
+git status # Esto me indica en la rama que estoy trabajando, la cantidad de commits que tengo, y los archivos que no tienen seguimiento
+
+# Para sumarlo al área de stage
+git add index.html
+
+# Hay que poner un comentario al commit
+git commit -m "Inicializamos nuestro primer repositorio"
+
