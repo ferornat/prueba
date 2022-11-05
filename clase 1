@@ -45,3 +45,6 @@ git restore "nombre file"
 
 # Vemos las diferencias entre el repo que clonamos o estamos laburando, y el que tenemos en el momento
 git diff
+
+# Si quiero hacer un restore de un archivo que ya está en la etapa de stage
+git restore --stage
