@@ -77,6 +77,7 @@ git blame "archivo" # Te dice quién cambió qué línea
 # readme.md
 
 # Tenemos que vincular nuestro repositorio con el repo de Git Hub
+git remote add origin https://github.com/ferornat/prueba.git # Esto sale de la pag que nos aparece tras generar el repositorio virtual en github
 
 
 
