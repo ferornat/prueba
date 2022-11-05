@@ -68,8 +68,12 @@ git log
 git log --oneline # Esto te achica la cantidad de información de salida
 # El hash es como el DNI del commit adentro del repositorio. Es único, y no se repite
 git show "hash" # Te tira la info del commit
+git blame "archivo" # Te dice quién cambió qué línea
 
-
+# Archivos importantes:
+# .gitignore
+# readme.md
+touch .gitignore
 
 
 
