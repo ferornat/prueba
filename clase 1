@@ -1,3 +1,4 @@
+# Página importante:https://git-scm.com/
 # Libro de referencia: Pro Git book
 # Cheat sheet: https://ndpsoftware.com/git-cheatsheet.html#loc=index;
 
@@ -59,9 +60,15 @@ git commit -m "Borramos"
 
 # Manera 2
 git rm -f archivo.html
-git status
-git add. # Llevamos a zona de staging
+git status # Ya va directo a staging
 git commit -m "Borramos"
+
+# Si queremos ver lo que se fue haciendo
+git log
+git log --oneline # Esto te achica la cantidad de información de salida
+# El hash es como el DNI del commit adentro del repositorio. Es único, y no se repite
+git show "hash" # Te tira la info del commit
+
 
 
 
